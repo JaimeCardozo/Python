@@ -5,3 +5,8 @@ if x<y or x>y:
     print("x is not equal to y")
 else:
     print("x is equal to y")
+#this code is more simple of the next way
+if x == y:
+    print("x is equal to y")
+else:
+    print("x is not equal to y")        

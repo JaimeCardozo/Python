@@ -1,4 +1,4 @@
-#It's simple way compare two numbers
+#It's simple way compare two numbers used elseif
 number1 = int(input("what's number1? "))
 number2 = int(input("what's number2? "))
 if number1 < number2:

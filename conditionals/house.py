@@ -1,13 +1,14 @@
 #match methods allow created differents case of bolean
 name = input("What's your name? ")
+name = name.upper()
 match name:
-    case "Harry":
+    case "HARRY":
         print("Gryffindor")
-    case "Hermaione":
+    case "HERMAIONE":
         print("Gryffindor")
-    case "Ron":
+    case "RON":
         print("Gryffindor")
-    case  "Draco":
+    case  "DRACO":
         print("Slytherin")
     case _:
         print("Who?")                

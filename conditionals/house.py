@@ -2,11 +2,7 @@
 name = input("What's your name? ")
 name = name.upper()
 match name:
-    case "HARRY":
-        print("Gryffindor")
-    case "HERMAIONE":
-        print("Gryffindor")
-    case "RON":
+    case "HARRY" | "HERMAIONE" | "RON":
         print("Gryffindor")
     case  "DRACO":
         print("Slytherin")

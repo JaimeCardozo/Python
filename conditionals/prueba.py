@@ -1,4 +1,4 @@
-msg = input("text: ")
-size = len(msg)
-print(size)
-print(msg[0:3])
+hour = input("hora: ")
+position= hour.find(":")
+print(position)
+print(hour[0:position])

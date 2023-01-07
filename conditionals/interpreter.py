@@ -20,5 +20,3 @@ match operator:
     case _:
         print("Expresion not valid")    
 print(result)
-
-

@@ -8,8 +8,6 @@ if position_operator == 1:
 else:
     number1 = float(operation[0:position_operator])
     number2 = float(operation[position_operator + 1: len(operation)])   
-print(number1)
-print(number2)
 result = 0
 match operator:
     case "+":

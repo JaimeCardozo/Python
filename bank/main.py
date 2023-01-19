@@ -34,28 +34,29 @@ def user(users):
     password = input("what's your password? ")
     button = cheak(user,password,users)
     while button:
+        print("-"*100)
         print("Welcome ",user)
         print("What do you wants?")
         print("1. Pay your debts with your cash? ")
-        print("2. To Give cash?")
+        print("2. To save cash?")
         print("3. Lend cash?")
         print("4. close")
         option = input("")
-    match option:
-        case "1":
-            print("")
-            #Search cash and debts of user
-        case "2":
-            print("")
-            #Search user cash 
-        case "3":
-            print("")
-            #search debt and to show many money lend to user depend of cash    
-        case "4":
-            print("Bye!")
-            button = False
-        case _:
-            print("Invalid option, repeat")
+        match option:
+            case "1":
+                print("")
+                #Search cash and debts of user
+            case "2":
+                print("")
+                #Search user cash 
+            case "3":
+                print("")
+                #search debt and to show many money lend to user depend of cash    
+            case "4":
+                print("Bye!")
+                button = False
+            case _:
+                print("Invalid option, repeat")
 def cheak(user,password,users):
     for use in users:
         if use["username"] == user and use["password"] == password:

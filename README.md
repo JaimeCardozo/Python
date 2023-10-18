@@ -1,2 +1,2 @@
 # Python
- codes of python
+ Codes of python
